@@ -14,7 +14,7 @@ const (
 )
 
 func HelloHandler(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("Привет, мир!!!"))
+	w.Write([]byte("Hello MIFI!"))
 }
 
 func main() {

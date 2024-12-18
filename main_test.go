@@ -23,7 +23,7 @@ func TestHelloHandler(t *testing.T) {
 		t.Error(err)
 	}
 
-	if string(data) != "Привет, мир!!!" {
+	if string(data) != "Hello MIFI!" {
 		t.Errorf("wrong response")
 	}
 }
